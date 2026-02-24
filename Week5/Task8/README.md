@@ -46,6 +46,8 @@ Implemented using:
 
 ```python
 from sklearn.linear_model import LogisticRegression
+```
+
 
 Used for:
 
@@ -54,6 +56,7 @@ Used for:
 - Efficient optimized training
 
 ---
+
 
 ## Author
 
