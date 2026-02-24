@@ -1,15 +1,14 @@
 # Logistic Regression Implementation
+
 ---
 
 ## Task
-
 - Implement Logistic Regression (From Scratch + Scikit-Learn)
 - Math behind Model
 
 ---
 
 ## Concepts Covered
-
 - Supervised Learning
 - Binary Classification
 - Sigmoid Function
@@ -23,34 +22,30 @@
 ## Implementation
 
 ### 1. Logistic Regression from Scratch
-
 The scratch implementation includes:
-
 - Manual implementation of the sigmoid function
 - Binary cross-entropy loss calculation
 - Gradient descent optimization
 - Weight and bias updates
 - Custom prediction function
 
-Mathematical model:
+**Mathematical model:**
 
-z = w^T x + b  
-ŷ = 1 / (1 + e^-z)
+$$z = w^T x + b$$
+$$\hat{y} = \frac{1}{1 + e^{-z}}$$
 
-Update rule:
+**Update rule:**
 
-w = w - α (1/m) X^T (ŷ - y)  
-b = b - α (1/m) Σ (ŷ - y)
+$$w = w - \alpha \frac{1}{m} X^T (\hat{y} - y)$$
+$$b = b - \alpha \frac{1}{m} \sum (\hat{y} - y)$$
 
 ---
 
 ### 2. Logistic Regression using Scikit-Learn
-
 Implemented using:
 
 ```python
 from sklearn.linear_model import LogisticRegression
-```
 
 Used for:
 
