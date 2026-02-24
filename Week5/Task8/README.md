@@ -1,6 +1,4 @@
 # Logistic Regression Implementation
-## (From Scratch + Scikit-Learn)
-
 ---
 
 ## Task
