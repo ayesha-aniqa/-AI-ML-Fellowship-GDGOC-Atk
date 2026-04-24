@@ -1,18 +1,4 @@
-# 🤖 GenAI Sprint Lab — 7-Day Beginner to Intermediate Program
----
-
-## 📅 Weekly Plan
-
-| Day | Topic | Outcome |
-|-----|-------|---------|
-| Day 1 | GenAI Basics + Setup | Run first GenAI model |
-| Day 2 | Tokenization | Understand LLM inputs |
-| Day 3 | Working with LLMs | Summarization + Chatbot |
-| Day 4 | RAG Fundamentals | Build retrieval system |
-| Day 5 | Mini RAG App | Ask questions from documents |
-| Day 6 | GAN Fundamentals | Generate synthetic images |
-| Day 7 | Final Mini Project | Text Analysis Tool |
-
+# 🤖 GenAI Sprint Lab 
 ---
 
 ## 🛠️ Tech Stack
